@@ -41,13 +41,13 @@ a = 5;
 b = 7;
 console.log("a = " + a +" and b = "+b);
 
-a += b;
+a += b; // a = a + b;
 console.log("a += b " + a);
-a -= b;
+a -= b; // a = a - b;
 console.log("a -= b " + a);
-a *= b;
+a *= b; // a = a * b;
 console.log("a *= b " + a);
-a /= b;
+a /= b; // a = a / b;
 console.log("a /= b " + a);
 
 console.log('a = ' + a);
@@ -57,3 +57,8 @@ console.log("++a " + ++a);
 console.log('b = ' + b);
 console.log("b-- " + b--);
 console.log("--b " + --b);
+
+// Writing in the document
+document.write(a);
+document.write("<h1>a for Apple</h1>");
+document.write("<h1>b for Ball</h1>");
