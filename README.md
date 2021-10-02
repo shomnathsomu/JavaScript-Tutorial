@@ -19,10 +19,7 @@
 
 
 ### JavaScript is a client side language
-Client/Browser <------ Server
-HTML                    Ruby on Rails
-CSS                     PHP
-JavaScripts             ASP.NET
+Client/Browser (HTML, CSS, JavaScript) <------ Server (Ruby on Rails, PHP, ASP.NET)
 
 ### Do NOT rely on JavaScript
 1. JavaScript should ENHANCE your audience's experience only.
@@ -30,3 +27,11 @@ JavaScripts             ASP.NET
 3. JavaScript is NOT, has nothing to do with Java.
 4. JavaScript is just a name that was given to it while JAVA was really popular.
 5. The official name for JavaScript is ECMAScript
+
+### Summary
+1. JavaScript is case sensitive.
+2. Contains many statements, all ending with a semicolon (;)
+3. Not sensitive to whitespace or line breaks
+4. Write one-line comments using //
+5. Write multi line comments using /**/
+6. JavaScipt runs from top to bottom
