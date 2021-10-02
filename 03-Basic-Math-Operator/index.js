@@ -34,3 +34,26 @@ var h, w, hw;
 h = "Hello", w = "World!";
 hw = h+" "+w;
 console.log(hw);
+
+// SHORT-HAND MATH OPERATOR
+var a, b;
+a = 5;
+b = 7;
+console.log("a = " + a +" and b = "+b);
+
+a += b;
+console.log("a += b " + a);
+a -= b;
+console.log("a -= b " + a);
+a *= b;
+console.log("a *= b " + a);
+a /= b;
+console.log("a /= b " + a);
+
+console.log('a = ' + a);
+console.log("a++ " + a++);
+console.log("++a " + ++a);
+
+console.log('b = ' + b);
+console.log("b-- " + b--);
+console.log("--b " + --b);
