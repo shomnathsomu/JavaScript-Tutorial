@@ -12,6 +12,18 @@ function setUpEvents() {
     myForm.name.onblur = function(){
         myForm.name.style.border = "none";
     };
+
+    var message = document.getElementById("message");
+
+    myForm.onsubmit = function(){
+        if(myForm.name.value == ""){
+            message.innerHTML = "Please enter a name";
+            return false;
+        } else {
+            message.innerHTML = "";
+            return true;
+        }
+    };
 }
 
 window.onload = function(){
